@@ -29,6 +29,13 @@ body {
 body {
     background: #f6f6f6;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Aleo', serif;
 }
 
 /* links */
@@ -57,7 +64,7 @@ a:hover {
 /* HOME
 -----------------------------------*/
 .home {
-    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background: url(../images/bg-coffee-shop.jpg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -76,7 +83,7 @@ a:hover {
 /* RESUME
 ------------------------------------*/
 .resume header::before {
-    background: url(../images/bg-home-office-studio.jpg) center;
+    background: url(../images/bg-coffee-shop.jpg) center;
     content: "";
     display: block;
     height: 375px;
@@ -116,6 +123,15 @@ a:hover {
 
 /* Work Experience
 ------------------------------------*/
+.work-item {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+}
+
+li {
+    margin: 10px 0 10px 0;
+}
 
 /* Education 
 ------------------------------------*/
