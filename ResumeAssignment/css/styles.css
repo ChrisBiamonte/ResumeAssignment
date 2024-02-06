@@ -2,6 +2,10 @@
 COLOR PALETTE
 
 Dark green     #3c8453
+Purple         #461F8F
+#D3772E
+Brown          #907B5E
+#C5D2DA
 Sandy beige    #bcaa96
 Dark gray      #222222
 Light gray     #d3d4d6
@@ -40,16 +44,16 @@ h3 {
 
 /* links */
 a {
-    color: #3c8453;
+    color: #907B5E;
 }
 
 a:hover {
-    color: #bcaa96;
+    color: #FED883;
     text-decoration: none;
 }
 
 .btn {
-    background: #3c8453;
+    background: #907B5E;
     color: #f6f6f6;
     text-decoration: none;
 }
@@ -59,6 +63,10 @@ a:hover {
     padding: 30px;
     max-width: 900px;
 
+}
+
+.white-bg-link:hover {
+    color: #461F8F
 }
 
 /* HOME
@@ -151,7 +159,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #3c8453;
+    color: #f6f6f6;
 }
 
 .socials {
